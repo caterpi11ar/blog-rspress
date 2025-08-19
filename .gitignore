@@ -16,3 +16,8 @@ doc_build/
 
 # cache
 .eslintcache
+
+
+# env
+.env.development
+.env.production

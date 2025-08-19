@@ -2,12 +2,18 @@
   "name": "blog-rspress",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "bun@1.2.20",
+  "engines": {
+    "node": ">=22.0.0",
+    "bun": ">=1.2.20"
+  },
   "scripts": {
     "build": "rspress build",
     "dev": "rspress dev",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "preview": "rspress preview"
+    "preview": "rspress preview",
+    "preinstall": "npx only-allow bun"
   },
   "dependencies": {
     "rspress": "^1.45.1"

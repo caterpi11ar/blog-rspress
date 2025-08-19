@@ -1,0 +1,17 @@
+[
+  {
+    "text": "Posts",
+    "link": "/posts/",
+    "activeMatch": "/posts/"
+  },
+  {
+    "text": "Tags",
+    "link": "/tags/",
+    "activeMatch": "/tags/"
+  },
+  {
+    "text": "About",
+    "link": "/about/",
+    "activeMatch": "/about/"
+  }
+]
